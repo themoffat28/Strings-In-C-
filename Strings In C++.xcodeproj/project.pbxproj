@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9F86A6F1E438B6E00F2A28C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F86A6E1E438B6E00F2A28C /* main.cpp */; };
+		C9F86A791E438BB600F2A28C /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F86A771E438BB600F2A28C /* Controller.cpp */; };
+		C9F86A7B1E438BC800F2A28C /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F86A7A1E438BC800F2A28C /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		C9F86A6B1E438B6E00F2A28C /* Strings In C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Strings In C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F86A6E1E438B6E00F2A28C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C9F86A771E438BB600F2A28C /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		C9F86A781E438BB600F2A28C /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		C9F86A7A1E438BC800F2A28C /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		C9F86A6D1E438B6E00F2A28C /* Strings In C++ */ = {
 			isa = PBXGroup;
 			children = (
-				C9F86A6E1E438B6E00F2A28C /* main.cpp */,
+				C9F86A761E438BA700F2A28C /* Controller */,
 			);
 			path = "Strings In C++";
+			sourceTree = "<group>";
+		};
+		C9F86A761E438BA700F2A28C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9F86A771E438BB600F2A28C /* Controller.cpp */,
+				C9F86A781E438BB600F2A28C /* Controller.hpp */,
+				C9F86A7A1E438BC800F2A28C /* Runner.cpp */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F86A6F1E438B6E00F2A28C /* main.cpp in Sources */,
+				C9F86A791E438BB600F2A28C /* Controller.cpp in Sources */,
+				C9F86A7B1E438BC800F2A28C /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
