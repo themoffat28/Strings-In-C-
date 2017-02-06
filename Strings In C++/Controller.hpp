@@ -8,18 +8,18 @@
 
 #ifndef Controller_hpp
 #define Controller_hpp
+#include <string>
+using namespace std;
 
 class Controller
 {
 private:
-    void lengthChecker();
-    int at(int);
-    void emptyString();
-    void substr(start, end);
-    void substr(start);
-    void compare();
+    string Words;
+    string otherWords;
+    void numberMethods();
 public:
     void start();
+    Controller(); 
 };
 
 #endif /* Controller_hpp */
